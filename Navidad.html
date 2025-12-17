@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Felices Fiestas | Clínica TERRÉ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin:0;
+    background:#0B3A2E;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+}
+.container {
+    max-width:600px;
+    margin:0 auto;
+    padding:30px 20px 60px;
+}
+.card {
+    background:#124C3B;
+    border-radius:22px;
+    padding:34px 24px 42px;
+    box-shadow:0 14px 30px rgba(0,0,0,0.35);
+}
+.logo {
+    width:140px;
+    border-radius:50%;
+    background:#000;
+    padding:6px;
+    margin-bottom:22px;
+}
+.tree {
+    margin:32px 0 24px;
+    font-family:monospace;
+    font-size:18px;
+    line-height:1.4;
+    color:#2F8F6B;
+}
+.light-red {
+    color:#C0392B;
+    animation: blink 1.6s infinite;
+}
+.light-gold {
+    color:#C9A24D;
+    animation: blink 2.3s infinite;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0.35; }
+    100% { opacity:1; }
+}
+.snow {
+    position:fixed;
+    top:0; left:0;
+    width:100%; height:100%;
+    pointer-events:none;
+    background-image:
+        radial-gradient(#ffffff 1px, transparent 1px),
+        radial-gradient(#ffffff 1px, transparent 1px);
+    background-size: 22px 22px, 34px 34px;
+    animation: snow 22s linear infinite;
+    opacity:0.14;
+}
+@keyframes snow {
+    from { background-position:0 0, 0 0; }
+    to { background-position:0 900px, 0 700px; }
+}
+</style>
+</head>
+
+<body>
+<div class="snow"></div>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <img class="logo"
+         src="https://drive.google.com/uc?export=view&id=1jyLJxFo6HdHVFrh3MyfE_B-6M95H2iND"
+         alt="Clínica TERRÉ">
+
+    <h1>🎄 Felices Fiestas 🎄</h1>
+    <p style="color:#C9A24D; font-size:17px; margin-bottom:28px;">
+        Para el equipo de Clínica TERRÉ
+    </p>
+
+    <div class="card">
+
+        <!-- MENSAJE PERSONAL CORTO -->
+        <p style="font-size:18px; line-height:1.6;">
+            Quiero agradecerles de manera personal por el compromiso,
+            la dedicación y la buena disposición que demuestran cada día.<br><br>
+
+            Gracias por el trabajo que realizan y por el apoyo entre compañeros,
+            que hacen de <strong>Clínica TERRÉ</strong> un gran lugar para trabajar.<br><br>
+
+            Les deseo una muy linda Navidad y un <strong>2026</strong>
+            lleno de salud, tranquilidad y buenas energías.
+        </p>
+
+        <!-- ÁRBOL NAVIDEÑO -->
+        <div class="tree">
+            ★<br>
+            ▲<br>
+            ▲<span class="light-red">●</span>▲<br>
+            ▲▲▲<span class="light-gold">●</span>▲▲<br>
+            ▲▲▲▲▲▲▲<br>
+            ▲▲<span class="light-red">●</span>▲▲▲▲▲▲<br>
+            ▲▲▲▲▲▲▲▲▲▲<br>
+            ▲▲▲<span class="light-gold">●</span>▲▲▲▲▲▲▲▲<br>
+            <span style="color:#7A4A2E;">███</span>
+        </div>
+
+        <!-- FIRMA -->
+        <p style="margin-top:24px;
+                  font-size:16px;
+                  color:#C9A24D;
+                  line-height:1.5;">
+            Con cariño,<br><br>
+            <strong>Luis Guzmán</strong><br>
+            Departamento de Informática<br>
+            Clínica TERRÉ
+        </p>
+
+    </div>
+</div>
+</body>
+</html>
